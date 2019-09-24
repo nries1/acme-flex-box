@@ -1,0 +1,83 @@
+body {
+     margin: 0;
+}
+
+#navbar-main {
+    background-color: dodgerblue;
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    height: 3rem;
+    width: 100vw;
+}
+
+/* .link, .logo {
+    flex-grow: 1;
+} */
+
+.link:hover {
+    cursor: pointer;
+}
+
+.link {
+    font-size: 1rem;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.page-title {
+    font-weight: 700;
+}
+
+.create-user-box {
+    border: 1px solid;
+    width: 40vw;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-user-box > .input-container {
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.input-container > div {
+    flex-grow: 1
+}
+
+.input-container > input {
+    flex-grow: 3;
+}
+
+.input-container > select {
+    flex-grow: 3;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.users {
+    width: 85%;
+}
+
+.user-box {
+    border-radius: 1rem;
+    border: 1px solid;
+}
+
+@media (max-width: 600px) {
+
+}
