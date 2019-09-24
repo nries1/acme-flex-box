@@ -8,11 +8,13 @@
 </head>
 <body>
     <div id='navbar-main'>
-        <div class='logo'>Acme Layout</div>
-        <div class='link'>Users</div>
-        <div class='link'>Departments</div>
-        <div class='link'>Contact</div>
-        <div class='menu'>Menu<span class= "triangle-down"></span></div>
+        <div id='menu-items'>
+            <div class='logo'>Acme Layout</div>
+            <div class='link'>Users</div>
+            <div class='link'>Departments</div>
+            <div class='link'>Contact</div>
+        </div>
+        <div class='menu' onclick='document.getElementById("menu-items")'>Menu<span class= "triangle-down"></span></div>
     </div>
     <div class='page-title'>Users</div>
     <div class='page-content'>
